@@ -1,488 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Sphurthy Satish</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif; /* Use a clean, professional font */
-            background-color: #f4f4f4; /* Light background for better readability */
-            color: #333; /* Dark text for contrast */
-            line-height: 1.6; /* Improved line height for readability */
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #007BFF; /* Professional blue color */
-            color: #fff; /* White text for contrast */
-            padding: 20px 0; /* Padding for spacing */
-            text-align: center; /* Centered text */
-        }
-        nav {
-            margin: 20px 0; /* Spacing around navigation */
-        }
-        nav a {
-            color: #fff; /* White links */
-            text-decoration: none; /* Remove underline */
-            margin: 0 15px; /* Spacing between links */
-        }
-        nav a:hover {
-            text-decoration: underline; /* Underline on hover for better UX */
-        }
-        .container {
-            width: 80%; /* Responsive container */
-            margin: auto; /* Center the container */
-            padding: 20px; /* Padding for content */
-            background: #fff; /* White background for content area */
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-        }
-        footer {
-            text-align: center; /* Centered footer text */
-            padding: 10px 0; /* Padding for spacing */
-            background: #007BFF; /* Same blue as header */
-            color: #fff; /* White text */
-            position: relative; /* Positioning for footer */
-            bottom: 0; /* Stick to bottom */
-            width: 100%; /* Full width */
-        }
-    </style>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        <a href="#" class="link"
-          >Sphurthy</a
-        >
-      </h3>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Miniport by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#work experience">Work Experience</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#publications">Publications</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
-          </li>
-        </ul>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#work">Work Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Sphurthy Satish</strong>.</h1>
+							</header>
+							<p>I am a Recent Grad from NC State University. I am passionate about Software, Software with AI and ML</p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
+		<!-- Work -->
+			<article id="projects" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Here's all the projects I have worked on.</h2>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-comments"></span>
+								<h3>EventFlow.AI</h3>
+								<p>EventFlow.AI is a multi-agent event planning platform that uses LLMs, LangGraph, and CopilotKit to coordinate scheduling, budgeting, and stakeholder communication—recognized with a $3,500 award at the 2025 VenturePack Challenge.</p>
+								<a href="https://github.com/nirmaljoji/EventFlow.AI" target="_blank" class="button small">View on GitHub</a>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-camera-retro"></span>
+								<h3>Lorem dolor tempus</h3>
+								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-thumbs-up"></span>
+								<h3>Feugiat posuere</h3>
+								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
 
-    <main>
-      <!-- About -->
-      <div class="about center">
-        <img src="Image.jpeg" alt="Sphurthy Satish" class="about__image" />
-        <h2>Hi, I am <span class="about__name">Sphurthy Satish</span></h2>
-        <h2 class="about__role">Graduate Student at North Carolina State University</h2>
-        <p class="about__desc">
-          I graduated in 2023 with a degree in Electronics and Communication Engineering from PES University, Bangalore. Currently, I am pursuing a Master's degree in Computer Engineering at NC State University, where I am actively exploring and contributing to the dynamic field of technology. My fascination with Machine Learning and Data Science drives me to work on projects in these domains, as well as Signal Processing, throughout my Master's program.
-        </p>
+		<!-- Portfolio -->
+			<article id="work" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some stuff I made recently.</h2>
+						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">Magna feugiat</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="#">Veroeros primis</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="#">Lorem ipsum</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Tempus dolore</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Feugiat aliquam</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Sed amet ornare</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
 
-        <div class="about__contact center">
-          <a href="https://drive.google.com/file/d/12_fXMUIoVGin7fFYY3ER6WhAO8CgChjE/view?usp=sharing">
-            <span class="btn btn--outline">Resume</span>
-          </a>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Have me make stuff for you.</h2>
+						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
 
-          <a
-            href="https://www.linkedin.com/in/sphurthy-satish-1435961b1/"
-            aria-label="linkedin"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
-
-        <div class="projects__grid">
-          <!-- <div class="project">
-            <h3>EVM-iPPG: Design and Evaluation of a Vital Monitoring System in NICU</h3>
-            <p class="project__description">
-              developed a method to calculate the heart rate and respiration rate of infants with 97.8% accuracy in real time. The results were presented in a paper published at the 10th IEEE SPIN Conference.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">EVM, PCA</li>
-              <li class="project__stack-item">Bandpass Filter</li>
-            </ul>
-
-            <a
-              href="https://colab.research.google.com/drive/1wZh-cWrCDG2SpIwA7-ITVZz-632C1YU_#scrollTo=zR5XmVKLUuWw"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-google"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a> -->
-          <!-- </div> -->
-
-          <div class="project">
-            <h3>Comparative Analysis of Different Machine Learning Models for Hurricane Prediction</h3>
-            <p class="project__description">
-              <ul>
-                <li>Generated real-time data with the help of OpenAI.</li>
-                <li>Used existing models of K-means, Random Forests, LSTM, and SVM to predict the occurrence of hurricanes and compared models.</li>
-                <li>Concluded that Random Forests was the best model with an accuracy of 90.5%.</li>
-            </ul>
-            
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">K Means, SVM, LSTM</li>
-              <li class="project__stack-item">Ramdom Forests</li>
-            </ul>
-
-            <a
-              href="https://drive.google.com/drive/folders/18BfpX2XIslS7mpfi4ka1jh7CyiCti8sA?usp=drive_link"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-google"></i>
-            </a>
-            <!-- <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a> -->
-          </div>
-
-          <div class="project">
-            <h3>Self- supervised Learning implementation and analysis</h3>
-            <p class="project__description">
-              <ul>
-                <li>Implemented 2 self-supervised contrastive learning methods on imagery data</li>
-                <li>Dataset: STL10 with only 500 labelled images per class.</li>
-                <li>Compared the representations via SSL with supervised Baseline: Baseline accuracy: 58.66%, Logistic Regression:
-                  29.88%.</li>
-                <li>Explored the results of 2 other SSL methods: SimSiam: Accuracy of 28.11 and BYOL: Accuracy of 11.14%</li>
-            </ul>
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">SSL</li>
-            </ul>
-
-            <a
-              href="https://colab.research.google.com/drive/1wB0XY6R4FgLWLRWq2jp2J57NoRftx_jy?usp=sharing"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-google"></i>
-            </a>
-            <!-- 
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a> -->
-          </div>
-          <div class="project">
-            <h3>Image colorization using GAN</h3>
-            <p class="project__description">
-              <ul>
-                <li>Implemented colorization by converting images from RGB to L*a*b color space</li>
-                <li>Used U-Net model for the Generator and Patch Discriminator model for the Discriminator</li>
-                <li>Pretrained the Generator on L1 loss obtained to get better results</li>
-                <li>Achieved colorization with an L1 loss of 2.68955 with only 20 epochs.</li>
-            </ul>
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">GAN</li>
-            </ul>
-
-            <a
-              href="https://colab.research.google.com/drive/1ZXTiwOLIjEiRU7suE_zZii28PvEVpK0x#scrollTo=HI5vG4EY17AJ"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-google"></i>
-            </a>
-            <!-- <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a> -->
-          </div>
-          <div class="project">
-            <h3>UI for Student Task List: Open source</h3>
-            <p class="project__description">
-              <ul>
-                <li>Developed a responsive and accessible student task list page, reducing load times by 20% and boosting user engagement.</li>
-                <li>Designed reusable, modular React components for scalability and maintainability, cutting future development time.</li>
-                <li>Improved system reliability by 15% through robust error handling and efficient data filtering under high-load conditions.</li>
-                <li>Gained hands-on experience with analyzing and improving system efficiency, scalability, and stability.</li>
-            </ul>
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">React</li>
-              <li class="project__stack-item">Typescript</li>
-            </ul>
-
-            <a
-              href="https://github.com/aditikilledar/reimplementation-front-end/tree/student-tasks-ui-f24"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <!-- <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a> -->
-          </div>
-          <div class="project">
-            <h3>UI revamp for Expertiza Assignment Participants</h3>
-            <p class="project__description">
-              <ul>
-                <li>Improved Usability: Redesigned UI, enhancing readability and usability for 25+ participants per view. </li>
-                <li>Increased Efficiency: Added bulk actions, reducing repetitive tasks by 30%.</li>
-                <li>Dynamic Features: Implemented multi-parameter search and filtering, improving data access speed by 40%.</li>
-                <li>Quality Focus: Conducted 10+ manual UI tests to ensure reliability and responsiveness.</li>
-            </ul>
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">React</li>
-              <li class="project__stack-item">Typescript</li>
-            </ul>
-
-            <a
-              href="https://github.com/sphurthy/reimplementation-front-end/tree/Program4_E2490"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <!-- <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a> -->
-          </div>
-        </div>
-      </section>
-      <!-- Work Experience -->
-      <section id="work experience" class="section work experience">
-        <h2 class="section__title">Work Experience</h2>
-
-        <div class="experience__grid">
-          <div class="experience">
-            <h3>Product Management Associate at EOX Vantage</h3>
-            <ul>
-              <li>Created applications on App Studio, an internal tool which helps create applications and worked on creating workflows
-                on n8n workflows for mapping Excel sheets and automating the process. This made the developer dependency for a 1
-                time mapping only and reduction by up to 80% for all other times</li>
-              <li>Developed dashboards on OI (Operational Intelligence) Studio using HTML and CSS. This provided real-time and
-                actionable data with 20% reduced delay.</li>
-          </ul>
-            <p class="experience__description">
-            </p>
-            <p class="experience__dates">
-              <strong>Dates of Employment:</strong> 01/2023 – 06/2023
-            </p>
-          </div>
-          
-          <div class="experience">
-            <h3>Research Intern at PES University</h3>
-            <p class="experience__description">
-              Focused on enhancing MRI image resolution using Generative Adversarial Networks (GANs), designing a model that takes MRI images as input and outputs high-resolution versions. This work led to the development of a functioning model and resulted in a published paper detailing the approach and results.
-            </p>
-            <p class="experience__dates">
-              <strong>Dates of Employment:</strong> 05/2021 – 07/2021
-            </p>
-          </div>
-
-          <div class="experience">
-            <h3>Project Intern at Brane Services, Pvt Ltd</h3>
-            <p class="experience__description">
-              <ul>
-                <li>Developed CRUD operations, with a 20% increase in code efficiency, for the internal application using Java and Springboot.</li>
-                <li>Developed test cases for existing transaction functions using the Swagger UI Framework, increasing test coverage
-                  by 25% and reducing the number of bugs in production by 15%.</li>
-                <li>Enhanced skills in agile methodologies, sprint planning, and issue tracking by attending workshops on Atlassian and
-                  JIRA, leading to a 50% improvement in project management efficiency.</li>
-            </ul>
-            </p>
-            <p class="experience__dates">
-              <strong>Dates of Employment:</strong> 09/2021 – 02/2022
-            </p>
-          </div>
-          
-          <!-- Add more experience entries as needed -->
-        </div>
-      </section>
-
-      <!-- Projects -->
-      <section id="publications" class="section publications">
-        <h2 class="section__title">Publications</h2>
-
-        <div class="projects__grid">
-          <div class="project">
-            <h3>EVM-iPPG: Design and Evaluation of a Vital Monitoring System in NICU</h3>
-            <p class="project__description" style="justify-content: space-evenly;">
-              A. Jain, S. Sphurthy, P. Bharadwaj and L. Krishna, "EVM-iPPG: Design and Evaluation of a Vital Monitoring System in NICU," 2023 10th International Conference on Signal Processing and Integrated Networks (SPIN), Noida, India, 2023, pp. 484-489, doi: 10.1109/SPIN57001.2023.10117094. keywords: {Wireless communication;Pediatrics;Forehead;Webcams;Measurement uncertainty;Streaming media;Skin;Eulerian video magnification;imaging-photoplethysmography;heart rate;neonates;NICU;real-time;respiration rate}
-            </p>
-            <br />
-            <a
-              href="https://ieeexplore.ieee.org/document/10117094"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-file"></i>
-            </a>
-          </div>
-        </div>
-        </section>
-
-      <!-- Skills -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-
-      <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-python"></i> Python
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-cuttlefish"></i> C/C++
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-java"></i> Java
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-js"></i> JavaScript
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-code"></i> MATLAB
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fas fa-ruby"></i> Ruby
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-tensorflow"></i> TensorFlow
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-pytorch"></i> PyTorch
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-opencv"></i> OpenCV
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-git"></i> Git
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-numpy"></i> Numpy
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-vscode"></i> VSCode
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-pandas"></i> Pandas
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fab fa-spring"></i> Spring Boot
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fas fa-database"></i> SQL
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fas fa-cogs"></i> Object Oriented Programming
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fas fa-windows"></i> Microsoft Office
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fas fa-video"></i> Video Processing
-          </li>
-          <li class="skills__list-item btn btn--plain">
-            <i class="fas fa-image"></i> Image Processing
-          </li>
-        </ul>
-      </section>
-
-
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:sphurthy@ncsu.edu">
-          <span class="btn btn--outline">Email me</span>
-        </a>
-      </section>
-    </main>
-
-    <footer class="footer">
-    <a
-      href="https://www.linkedin.com/in/sphurthy-satish-1435961b1/"
-      aria-label="linkedin"
-      class="link link--icon"
-    >
-      <i aria-hidden="true" class="fab fa-linkedin"></i>
-    </a>
-
-    </footer>
-
-    <div class="scroll-container">
-    <div class="scroll-top">
-      <a aria-label="Scroll up" href="#top">
-        <i aria-hidden="true" class="fas fa-arrow-up"></i>
-      </a>
-    </div>
-    </div>
-
-    <script src="./script.js"></script>
-  </body>
+	</body>
 </html>
